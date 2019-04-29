@@ -29,7 +29,8 @@
         ":prImmediately",
         ":renovatePrefix",
         ":updateNotScheduled",
-        ":ignoreModulesAndTests"
+        ":ignoreModulesAndTests",
+        ":rebaseStalePrs"
       ],
       "rangeStrategy": "bump",
       "suppressNotifications": [
