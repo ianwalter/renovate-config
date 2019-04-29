@@ -1,6 +1,6 @@
 {
   "name": "@ianwalter/renovate-config",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Ian's Renovate config preset",
   "repository": {
     "type": "git",
