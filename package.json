@@ -1,0 +1,51 @@
+{
+  "name": "@ianwalter/renovate-config",
+  "version": "0.0.0",
+  "description": "Ian's Renovate config preset",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianwalter/renovate-config.git"
+  },
+  "keywords": [
+    "renovate",
+    "config",
+    "preset"
+  ],
+  "author": "Ian Walter <public@iankwalter.com> (https://iankwalter.com)",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/ianwalter/renovate-config/issues"
+  },
+  "homepage": "https://github.com/ianwalter/renovate-config#readme",
+  "renovate-config": {
+    "default": {
+      "extends": [
+        ":combinePatchMinorReleases",
+        ":ignoreUnstable",
+        ":prImmediately",
+        ":renovatePrefix",
+        ":updateNotScheduled",
+        ":ignoreModulesAndTests"
+      ],
+      "rangeStrategy": "bump",
+      "suppressNotifications": [
+        "prIgnoreNotification",
+        "prEditNotification"
+      ],
+      "packageRules": [
+        {
+          "depTypeList": [
+            "devDependencies"
+          ],
+          "automerge": true,
+          "major": {
+            "automerge": false
+          }
+        }
+      ]
+    }
+  },
+  "devDependencies": {
+    "np": "^5.0.1"
+  }
+}
