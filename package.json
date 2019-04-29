@@ -17,6 +17,10 @@
     "url": "https://github.com/ianwalter/renovate-config/issues"
   },
   "homepage": "https://github.com/ianwalter/renovate-config#readme",
+  "devDependencies": {
+    "@ianwalter/renovate-config": "^1.0.0",
+    "np": "^5.0.1"
+  },
   "renovate-config": {
     "default": {
       "extends": [
@@ -45,7 +49,9 @@
       ]
     }
   },
-  "devDependencies": {
-    "np": "^5.0.1"
+  "renovate": {
+    "extends": [
+      "@ianwalter"
+    ]
   }
 }
