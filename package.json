@@ -42,10 +42,7 @@
           "depTypeList": [
             "devDependencies"
           ],
-          "automerge": true,
-          "major": {
-            "automerge": false
-          }
+          "automerge": true
         },
         {
           "packagePatterns": [
