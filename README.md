@@ -14,12 +14,10 @@ yarn add @ianwalter/renovate-config --dev
 In `package.json`:
 
 ```js
-{
-  "renovate": {
-    "extends": [
-      "@ianwalter"
-    ]
-  }
+"renovate": {
+  "extends": [
+    "@ianwalter"
+  ]
 }
 ```
 
