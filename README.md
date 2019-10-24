@@ -27,7 +27,7 @@ Apache 2.0 with Commons Clause - See [LICENSE][licenseUrl]
 
 &nbsp;
 
-Created by [Ian Walter](https://iankwalter.com)
+Created by [Ian Walter](https://ianwalter.dev)
 
 [renovateUrl]: https://renovatebot.com/
 [npmImage]: https://img.shields.io/npm/v/@ianwalter/renovate-config.svg
