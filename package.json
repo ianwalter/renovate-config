@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/ianwalter/renovate-config#readme",
   "devDependencies": {
-    "@ianwalter/release": "^3.0.6",
+    "@ianwalter/release": "^3.0.7",
     "@ianwalter/renovate-config": "^1.2.0"
   },
   "renovate-config": {
