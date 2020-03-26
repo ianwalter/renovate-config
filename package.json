@@ -49,6 +49,13 @@
             "^@ianwalter/bff"
           ],
           "groupName": "bff packages"
+        },
+        {
+          "packagePatterns": [
+            "^vue$",
+            "^vue-template-compiler$"
+          ],
+          "groupName": "Vue"
         }
       ]
     }
