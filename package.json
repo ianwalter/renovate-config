@@ -20,6 +20,9 @@
     "url": "https://ianwalter.dev"
   },
   "license": "SEE LICENSE IN LICENSE",
+  "publishConfig": {
+    "access": "public"
+  },
   "bugs": {
     "url": "https://github.com/ianwalter/renovate-config/issues"
   },
