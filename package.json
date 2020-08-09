@@ -60,6 +60,12 @@
         },
         {
           "packagePatterns": [
+            "^@ianwalter/nrg"
+          ],
+          "groupName": "nrg packages"
+        },
+        {
+          "packagePatterns": [
             "^vue$",
             "^vue-template-compiler$"
           ],
