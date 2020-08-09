@@ -1,5 +1,6 @@
 devDependencies:
   '@changesets/cli': 2.9.2
+  '@ianwalter/renovate-config': 'link:'
   renovate: 22.13.1
 lockfileVersion: 5.1
 packages:
@@ -3920,5 +3921,5 @@ packages:
       integrity: sha512-aePbxDmcYW++PaqBsJ+HYUFwCdv4LVvdnhBy78E57PIor8/OVvhMrADFFEDh8DHDFRv/O9i3lPhsENjO7QX0+A==
 specifiers:
   '@changesets/cli': ^2.9.2
-  '@ianwalter/renovate-config': 'file:.'
+  '@ianwalter/renovate-config': 'file:./'
   renovate: ^22.13.1
