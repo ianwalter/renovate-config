@@ -1,7 +1,7 @@
 devDependencies:
   '@changesets/cli': 2.10.0
   '@ianwalter/renovate-config': 'link:'
-  renovate: 22.14.0
+  renovate: 22.14.1
 lockfileVersion: 5.1
 packages:
   /@babel/code-frame/7.10.4:
@@ -1411,7 +1411,7 @@ packages:
       node: '>=10'
     resolution:
       integrity: sha512-iH9RmgwCmUJHi2z5o2l3eTtGBtXek1OYlHrbcxOYugyHLmAsZrPj43OtHThd62Buh/Vv6VyCBD2bdyWcGNQqoQ==
-  /got/11.5.1:
+  /got/11.5.2:
     dependencies:
       '@sindresorhus/is': 3.1.0
       '@szmarczak/http-timer': 4.0.5
@@ -1428,7 +1428,7 @@ packages:
     engines:
       node: '>=10.19.0'
     resolution:
-      integrity: sha512-reQEZcEBMTGnujmQ+Wm97mJs/OK6INtO6HmLI+xt3+9CvnRwWjXutUvb2mqr+Ao4Lu05Rx6+udx9sOQAmExMxA==
+      integrity: sha512-yUhpEDLeuGiGJjRSzEq3kvt4zJtAcjKmhIiwNp/eUs75tRlXfWcHo5tcBaMQtnjHWC7nQYT5HkY/l0QOQTkVww==
   /graceful-fs/4.2.4:
     dev: true
     resolution:
@@ -2922,7 +2922,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-amw8rGdD5lHbMEakiEsllmkdBP+/KpjW/PRK6NSGPZKCQowh0BT4IWXDAkRMyG3SB9dKPXWMviFjNusXzXNn3A==
-  /renovate/22.14.0:
+  /renovate/22.14.1:
     dependencies:
       '@renovate/pep440': 0.4.1
       '@renovatebot/ruby-semver': 0.2.1
@@ -2947,7 +2947,7 @@ packages:
       fs-extra: 9.0.1
       github-url-from-git: 1.5.0
       global-agent: 2.1.12
-      got: 11.5.1
+      got: 11.5.2
       handlebars: 4.7.6
       handy-redis: 1.8.3
       hasha: 5.2.0
@@ -2994,7 +2994,7 @@ packages:
     optionalDependencies:
       re2: 1.15.4
     resolution:
-      integrity: sha512-skAJ1k2eP6ALokGaWRBvvmVqBpnhvjbnPHOZg9ckzu4ST3FKsdfJ2mJ4RuIxqQCP47mTrBaI277Iu+rjT+f2Fg==
+      integrity: sha512-3V2d9iAw2uJI3kqDmieXAFBsrC13dSRF66FyW+v4mTKoBR9qASbU3jtQlmEdisOqXiD2n1a1o8y40YyV8cUSDQ==
   /repeat-string/1.6.1:
     dev: true
     engines:
@@ -3951,4 +3951,4 @@ packages:
 specifiers:
   '@changesets/cli': ^2.10.0
   '@ianwalter/renovate-config': 'file:./'
-  renovate: ^22.14.0
+  renovate: ^22.14.1
