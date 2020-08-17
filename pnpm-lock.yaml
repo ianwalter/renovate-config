@@ -1,7 +1,7 @@
 devDependencies:
   '@changesets/cli': 2.10.1
   '@ianwalter/renovate-config': 'link:'
-  renovate: 22.17.4
+  renovate: 22.17.5
 lockfileVersion: 5.1
 packages:
   /@babel/code-frame/7.10.4:
@@ -2922,7 +2922,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-amw8rGdD5lHbMEakiEsllmkdBP+/KpjW/PRK6NSGPZKCQowh0BT4IWXDAkRMyG3SB9dKPXWMviFjNusXzXNn3A==
-  /renovate/22.17.4:
+  /renovate/22.17.5:
     dependencies:
       '@renovate/pep440': 0.4.1
       '@renovatebot/ruby-semver': 0.2.1
@@ -2994,7 +2994,7 @@ packages:
     optionalDependencies:
       re2: 1.15.4
     resolution:
-      integrity: sha512-9MBzm18Uh4/k45tVibXD0VdKIRp4zd0jnhQER5PJp8KDemSgX3n7C4ZmPCk0FbQ/ybk7mJ7kzwluABMeWbLfsw==
+      integrity: sha512-3OjixuCfX/c80VdlbiJc5E+KL1pYxJcAR69x1dRlwamIEo1V87TQRK8gICBvghtDHKAcR7RkNlEAOatLZ0Yqcg==
   /repeat-string/1.6.1:
     dev: true
     engines:
@@ -3951,4 +3951,4 @@ packages:
 specifiers:
   '@changesets/cli': ^2.10.1
   '@ianwalter/renovate-config': 'file:./'
-  renovate: ^22.17.4
+  renovate: ^22.17.5
