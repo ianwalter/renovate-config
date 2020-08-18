@@ -1,7 +1,7 @@
 devDependencies:
   '@changesets/cli': 2.10.1
   '@ianwalter/renovate-config': 'link:'
-  renovate: 22.19.1
+  renovate: 22.19.2
 lockfileVersion: 5.1
 packages:
   /@babel/code-frame/7.10.4:
@@ -269,12 +269,12 @@ packages:
     dev: true
     resolution:
       integrity: sha512-C/Lx16jZLB7q4b+zHF/av/BRrhSRDUh7KsP7xHTb2UwNAOfwkv8mMkQhrjjNpil3eQY//vFGLtnYCXlEolZ38w==
-  /@sindresorhus/is/3.1.0:
+  /@sindresorhus/is/3.1.1:
     dev: true
     engines:
       node: '>=10'
     resolution:
-      integrity: sha512-n4J+zu52VdY43kdi/XdI9DzuMr1Mur8zFL5ZRG2opCans9aiFwkPxHYFEb5Xgy7n1Z4K6WfI4FpqUqsh3E8BPQ==
+      integrity: sha512-tLnujxFtfH7F+i5ghUfgGlJsvyCKvUnSMFMlWybFdX9/DdX8svb4Zwx1gV0gkkVCHXtmPSetoAR3QlKfOld6Tw==
   /@szmarczak/http-timer/4.0.5:
     dependencies:
       defer-to-connect: 2.0.0
@@ -1413,7 +1413,7 @@ packages:
       integrity: sha512-iH9RmgwCmUJHi2z5o2l3eTtGBtXek1OYlHrbcxOYugyHLmAsZrPj43OtHThd62Buh/Vv6VyCBD2bdyWcGNQqoQ==
   /got/11.5.2:
     dependencies:
-      '@sindresorhus/is': 3.1.0
+      '@sindresorhus/is': 3.1.1
       '@szmarczak/http-timer': 4.0.5
       '@types/cacheable-request': 6.0.1
       '@types/responselike': 1.0.0
@@ -2922,11 +2922,11 @@ packages:
     dev: true
     resolution:
       integrity: sha512-amw8rGdD5lHbMEakiEsllmkdBP+/KpjW/PRK6NSGPZKCQowh0BT4IWXDAkRMyG3SB9dKPXWMviFjNusXzXNn3A==
-  /renovate/22.19.1:
+  /renovate/22.19.2:
     dependencies:
       '@renovate/pep440': 0.4.1
       '@renovatebot/ruby-semver': 0.2.1
-      '@sindresorhus/is': 3.1.0
+      '@sindresorhus/is': 3.1.1
       '@yarnpkg/lockfile': 1.1.0
       aws-sdk: 2.725.0
       azure-devops-node-api: 10.1.1
@@ -2994,7 +2994,7 @@ packages:
     optionalDependencies:
       re2: 1.15.4
     resolution:
-      integrity: sha512-MoFShJirXkCH6DnmaRv7jjVG7V0NG9rSUszifyYDgaxs32DNh4AWbqGwYv1Yu6P54nsRucM8a3bfoECKazhTPw==
+      integrity: sha512-yrQWVq33Mk7pm/GhHYa7VVYL/vB1rgKKV8et+njsZN7hun51UDePRiiCh8rImCKGj5toZPglQQL2nIUvN0NUeQ==
   /repeat-string/1.6.1:
     dev: true
     engines:
@@ -3951,4 +3951,4 @@ packages:
 specifiers:
   '@changesets/cli': ^2.10.1
   '@ianwalter/renovate-config': 'file:./'
-  renovate: ^22.19.1
+  renovate: ^22.19.2
