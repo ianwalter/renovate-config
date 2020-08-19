@@ -1,7 +1,7 @@
 devDependencies:
   '@changesets/cli': 2.10.1
   '@ianwalter/renovate-config': 'link:'
-  renovate: 22.19.6
+  renovate: 22.19.7
 lockfileVersion: 5.1
 packages:
   /@babel/code-frame/7.10.4:
@@ -2371,12 +2371,6 @@ packages:
     optional: true
     resolution:
       integrity: sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
-  /object-hash/2.0.3:
-    dev: true
-    engines:
-      node: '>= 6'
-    resolution:
-      integrity: sha512-JPKn0GMu+Fa3zt3Bmr66JhokJU5BaNBIh4ZeTlaCBzrBsOeXzwcKKAK1tbLiPKgvwmPXsDvvLHoWh5Bm7ofIYg==
   /object-keys/1.1.1:
     dev: true
     engines:
@@ -2922,7 +2916,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-amw8rGdD5lHbMEakiEsllmkdBP+/KpjW/PRK6NSGPZKCQowh0BT4IWXDAkRMyG3SB9dKPXWMviFjNusXzXNn3A==
-  /renovate/22.19.6:
+  /renovate/22.19.7:
     dependencies:
       '@renovate/pep440': 0.4.1
       '@renovatebot/ruby-semver': 0.2.1
@@ -2967,7 +2961,6 @@ packages:
       moment-timezone: 0.5.31
       node-emoji: 1.10.0
       node-html-parser: 1.2.20
-      object-hash: 2.0.3
       p-all: 3.0.0
       p-map: 4.0.0
       parse-diff: 0.7.0
@@ -2978,7 +2971,7 @@ packages:
       semver-utils: 1.1.4
       shlex: 2.0.2
       shortid: 2.2.15
-      simple-git: 2.17.0
+      simple-git: 2.18.0
       slugify: 1.4.5
       toml: 3.0.0
       traverse: 0.6.6
@@ -2994,7 +2987,7 @@ packages:
     optionalDependencies:
       re2: 1.15.4
     resolution:
-      integrity: sha512-6Wrpt4vxKXe1t8trfmsBFlM9sYxoIpFiQ806oDeL9Tz1Ff5IbcRVPtm4dqVr9g3J3fO2ScA6ZE7xSHc1aw8aXQ==
+      integrity: sha512-Utm6MPGGW8VqxK7ucR8aSkamYNKCNloFID1nnlZiKiiFia1tTothy3HRLx6PJx+L7E0CE+Hb9/NRUzmx2Teq8g==
   /repeat-string/1.6.1:
     dev: true
     engines:
@@ -3213,14 +3206,14 @@ packages:
     dev: true
     resolution:
       integrity: sha512-VUJ49FC8U1OxwZLxIbTTrDvLnf/6TDgxZcK8wxR8zs13xpx7xbG60ndBlhNrFi2EMuFRoeDoJO7wthSLq42EjA==
-  /simple-git/2.17.0:
+  /simple-git/2.18.0:
     dependencies:
       '@kwsites/file-exists': 1.1.1
       '@kwsites/promise-deferred': 1.1.1
       debug: 4.1.1
     dev: true
     resolution:
-      integrity: sha512-l2F16fJvHWSx+E1C8WduwpNDfqf+JDD8nsEaD5szUZlbz5Y6paSnR4wlGxIa6Mr6I4kl3F9QmTaPIQjSxlcafA==
+      integrity: sha512-zT25VFQgQZJVshLrWDe49deMIgrjJJzGKMOrEx6XzMP8BERg7ZWJRsBPureufi2oSZ50x6z0oNKBfgboY2NyVg==
   /slash/3.0.0:
     dev: true
     engines:
@@ -3951,4 +3944,4 @@ packages:
 specifiers:
   '@changesets/cli': ^2.10.1
   '@ianwalter/renovate-config': 'file:./'
-  renovate: ^22.19.6
+  renovate: ^22.19.7
