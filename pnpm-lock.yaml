@@ -1,7 +1,7 @@
 devDependencies:
   '@changesets/cli': 2.10.2
   '@ianwalter/renovate-config': 'link:'
-  renovate: 23.8.0
+  renovate: 23.9.0
 lockfileVersion: 5.1
 packages:
   /@arcanis/slice-ansi/1.0.2:
@@ -3249,7 +3249,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-amw8rGdD5lHbMEakiEsllmkdBP+/KpjW/PRK6NSGPZKCQowh0BT4IWXDAkRMyG3SB9dKPXWMviFjNusXzXNn3A==
-  /renovate/23.8.0:
+  /renovate/23.9.0:
     dependencies:
       '@renovate/pep440': 0.4.1
       '@renovatebot/ruby-semver': 0.2.1
@@ -3321,7 +3321,7 @@ packages:
     optionalDependencies:
       re2: 1.15.4
     resolution:
-      integrity: sha512-zy0CmuvRVhK4HgLI2g+eXi1khygF5i5wMTfmxboYxnJKmRJZRVYIsYgNkiJ77O0xcKtP/YPczjWALsH1EsU74Q==
+      integrity: sha512-M13u972+tb/A9mvpGD2vswByEiy3QMvTi6EcgB3GANu2hbQn+5w1f78chv7iibaer47cFDHILu5eRRAi2zGW9w==
   /repeat-string/1.6.1:
     dev: true
     engines:
@@ -4333,4 +4333,4 @@ packages:
 specifiers:
   '@changesets/cli': ^2.10.2
   '@ianwalter/renovate-config': 'file:./'
-  renovate: ^23.8.0
+  renovate: ^23.9.0
