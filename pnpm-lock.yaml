@@ -1,7 +1,7 @@
 devDependencies:
   '@changesets/cli': 2.10.2
   '@ianwalter/renovate-config': 'link:'
-  renovate: 23.14.0
+  renovate: 23.14.1
 lockfileVersion: 5.1
 packages:
   /@arcanis/slice-ansi/1.0.2:
@@ -369,7 +369,7 @@ packages:
       '@yarnpkg/fslib': 2.1.0
       '@yarnpkg/json-proxy': 2.1.0
       '@yarnpkg/libzip': 2.1.0
-      '@yarnpkg/parsers': 2.1.0
+      '@yarnpkg/parsers': 2.2.0
       '@yarnpkg/pnp': 2.1.0
       '@yarnpkg/shell': 2.1.0
       camelcase: 5.3.1
@@ -424,7 +424,7 @@ packages:
       node: '>=10.19.0'
     resolution:
       integrity: sha512-39c7KuSWcYUqVxlBLZwfqdD/D6lS+jplNVWd6uAnk8EpnacaYGJRegvkqWyfw5c8KHukNMeEGF5JHrXPZYBM0w==
-  /@yarnpkg/parsers/2.1.0:
+  /@yarnpkg/parsers/2.2.0:
     dependencies:
       js-yaml: 3.14.0
       tslib: 1.13.0
@@ -432,7 +432,7 @@ packages:
     engines:
       node: '>=10.19.0'
     resolution:
-      integrity: sha512-75OYQ6PMs1C3zm+W+T1xhLyVDX78zXQGEVHpWd4o/QwpAbhneB3/5FXVGRzI3gjPPWWSb/pKOPB1S6p0xmQD2Q==
+      integrity: sha512-k1XZaWYRHl7wCj04hcbtzKfPAZbKbsEi7xsB1Ka8obdS6DRnAw7n0gZPvvGjOoqkH95IqWf+Vi7vV5RhlGz63Q==
   /@yarnpkg/pnp/2.1.0:
     dependencies:
       '@types/node': 13.13.15
@@ -446,7 +446,7 @@ packages:
   /@yarnpkg/shell/2.1.0:
     dependencies:
       '@yarnpkg/fslib': 2.1.0
-      '@yarnpkg/parsers': 2.1.0
+      '@yarnpkg/parsers': 2.2.0
       clipanion: 2.4.4
       cross-spawn: 7.0.3
       fast-glob: 3.2.4
@@ -3250,13 +3250,13 @@ packages:
     dev: true
     resolution:
       integrity: sha512-amw8rGdD5lHbMEakiEsllmkdBP+/KpjW/PRK6NSGPZKCQowh0BT4IWXDAkRMyG3SB9dKPXWMviFjNusXzXNn3A==
-  /renovate/23.14.0:
+  /renovate/23.14.1:
     dependencies:
       '@renovate/pep440': 0.4.1
       '@renovatebot/ruby-semver': 0.2.1
       '@sindresorhus/is': 3.1.2
       '@yarnpkg/core': 2.1.1
-      '@yarnpkg/parsers': 2.1.0
+      '@yarnpkg/parsers': 2.2.0
       aws-sdk: 2.738.0
       azure-devops-node-api: 10.1.1
       bunyan: 1.8.14
@@ -3322,7 +3322,7 @@ packages:
     optionalDependencies:
       re2: 1.15.4
     resolution:
-      integrity: sha512-5DxRpiLexuM39wL3Pf0FRkn99aah2GzHV9ZXICl25exT3m/QDAT8Ey74Z1AlRu2riXAtRrg5bADebb4vXF3GPA==
+      integrity: sha512-5uZMc93xmuKD6Iz/UoBTBLLShmq6XTuG5cB6LwyjPa1ZubzTHWFhGh881fcD7k8IoDP92kq8xk5kcweBRSsL0Q==
   /repeat-string/1.6.1:
     dev: true
     engines:
@@ -4334,4 +4334,4 @@ packages:
 specifiers:
   '@changesets/cli': ^2.10.2
   '@ianwalter/renovate-config': 'file:./'
-  renovate: ^23.14.0
+  renovate: ^23.14.1
