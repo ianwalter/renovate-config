@@ -1,7 +1,7 @@
 devDependencies:
   '@changesets/cli': 2.10.2
   '@ianwalter/renovate-config': 'link:'
-  renovate: 23.28.0
+  renovate: 23.28.2
 lockfileVersion: 5.1
 packages:
   /@arcanis/slice-ansi/1.0.2:
@@ -755,7 +755,7 @@ packages:
     hasBin: true
     optionalDependencies:
       dtrace-provider: 0.8.8
-      moment: 2.27.0
+      moment: 2.28.0
       mv: 2.1.1
       safe-json-stringify: 1.2.0
     resolution:
@@ -2601,14 +2601,14 @@ packages:
       integrity: sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==
   /moment-timezone/0.5.31:
     dependencies:
-      moment: 2.27.0
+      moment: 2.28.0
     dev: true
     resolution:
       integrity: sha512-+GgHNg8xRhMXfEbv81iDtrVeTcWt0kWmTEY1XQK14dICTXnWJnT0dxdlPspwqF3keKMVPXwayEsk1DI0AA/jdA==
-  /moment/2.27.0:
+  /moment/2.28.0:
     dev: true
     resolution:
-      integrity: sha512-al0MUK7cpIcglMv3YF13qSgdAIqxHTO7brRtaz3DlSULbqfazqkc5kEjNrLDOM7fsjshoFIihnU8snrP7zUvhQ==
+      integrity: sha512-Z5KOjYmnHyd/ukynmFd/WwyXHd7L4J9vTI/nn5Ap9AVUgaAE15VvQ9MOGmJJygEUklupqIrFnor/tjTwRU+tQw==
   /ms/2.1.2:
     dev: true
     resolution:
@@ -3379,7 +3379,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-amw8rGdD5lHbMEakiEsllmkdBP+/KpjW/PRK6NSGPZKCQowh0BT4IWXDAkRMyG3SB9dKPXWMviFjNusXzXNn3A==
-  /renovate/23.28.0:
+  /renovate/23.28.2:
     dependencies:
       '@renovate/pep440': 0.4.1
       '@renovatebot/ruby-semver': 0.2.1
@@ -3422,7 +3422,7 @@ packages:
       markdown-it: 11.0.0
       markdown-table: 2.0.0
       minimatch: 3.0.4
-      moment: 2.27.0
+      moment: 2.28.0
       moment-timezone: 0.5.31
       node-emoji: 1.10.0
       p-all: 3.0.0
@@ -3451,7 +3451,7 @@ packages:
     optionalDependencies:
       re2: 1.15.4
     resolution:
-      integrity: sha512-TOlCbRGX/chqs1O3+PUggUgB74s/eae4ltnmNbQLLBnwu7WY6EGxhRmsIZS2jQoffUB2M0XsOqo6YoF6ne7IdA==
+      integrity: sha512-drqlKwHzWGsOUXd946B2O9EOVai9F+3ejO6y/Oui1ZWaM6bLpb7R4Vpsgni2NrSIFApRCDYYrB5K6ZvFoDdIyA==
   /repeat-string/1.6.1:
     dev: true
     engines:
@@ -4592,4 +4592,4 @@ packages:
 specifiers:
   '@changesets/cli': ^2.10.2
   '@ianwalter/renovate-config': 'file:./'
-  renovate: ^23.28.0
+  renovate: ^23.28.2
