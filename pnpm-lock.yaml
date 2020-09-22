@@ -1,7 +1,7 @@
 devDependencies:
   '@changesets/cli': 2.10.3
   '@ianwalter/renovate-config': 'link:'
-  renovate: 23.32.0
+  renovate: 23.32.1
 lockfileVersion: 5.1
 packages:
   /@arcanis/slice-ansi/1.0.2:
@@ -368,7 +368,7 @@ packages:
       cross-spawn: 7.0.3
       diff: 4.0.2
       globby: 11.0.1
-      got: 11.6.2
+      got: 11.7.0
       json-file-plus: 3.3.1
       lodash: 4.17.20
       logic-solver: 2.0.1
@@ -1666,7 +1666,7 @@ packages:
       node: '>=10'
     resolution:
       integrity: sha512-iH9RmgwCmUJHi2z5o2l3eTtGBtXek1OYlHrbcxOYugyHLmAsZrPj43OtHThd62Buh/Vv6VyCBD2bdyWcGNQqoQ==
-  /got/11.6.2:
+  /got/11.7.0:
     dependencies:
       '@sindresorhus/is': 3.1.2
       '@szmarczak/http-timer': 4.0.5
@@ -1683,7 +1683,7 @@ packages:
     engines:
       node: '>=10.19.0'
     resolution:
-      integrity: sha512-/21qgUePCeus29Jk7MEti8cgQUNXFSWfIevNIk4H7u1wmXNDrGPKPY6YsPY+o9CIT/a2DjCjRz0x1nM9FtS2/A==
+      integrity: sha512-7en2XwH2MEqOsrK0xaKhbWibBoZqy+f1RSUoIeF1BLcnf+pyQdDsljWMfmOh+QKJwuvDIiKx38GtPh5wFdGGjg==
   /graceful-fs/4.2.4:
     dev: true
     resolution:
@@ -3379,7 +3379,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-amw8rGdD5lHbMEakiEsllmkdBP+/KpjW/PRK6NSGPZKCQowh0BT4IWXDAkRMyG3SB9dKPXWMviFjNusXzXNn3A==
-  /renovate/23.32.0:
+  /renovate/23.32.1:
     dependencies:
       '@renovate/pep440': 0.4.1
       '@renovatebot/ruby-semver': 0.2.1
@@ -3405,7 +3405,7 @@ packages:
       fs-extra: 9.0.1
       github-url-from-git: 1.5.0
       global-agent: 2.1.12
-      got: 11.6.2
+      got: 11.7.0
       handlebars: 4.7.6
       handy-redis: 1.8.3
       hasha: 5.2.0
@@ -3452,7 +3452,7 @@ packages:
     optionalDependencies:
       re2: 1.15.4
     resolution:
-      integrity: sha512-DjBM/twoF/WKsBcjUZMPHLc20gO3ZaGhRx3yb5BMBm1YXI/3stGiGBNCHLQGrlYA61vOiMS5FTYXunlSp5lerQ==
+      integrity: sha512-JQx3H0K3pUFuAWiWqEBRLoB/3ekiYGyazqiZCHI+zNe8S8ecKwv9axM7fgbLZzQCegyjGDFVIbQdutvaCa/l9A==
   /repeat-string/1.6.1:
     dev: true
     engines:
@@ -4597,4 +4597,4 @@ packages:
 specifiers:
   '@changesets/cli': ^2.10.3
   '@ianwalter/renovate-config': 'file:./'
-  renovate: ^23.32.0
+  renovate: ^23.32.1
