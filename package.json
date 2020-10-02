@@ -30,7 +30,7 @@
   "devDependencies": {
     "@changesets/cli": "^2.10.3",
     "@ianwalter/renovate-config": "file:./",
-    "renovate": "^23.39.0"
+    "renovate": "^23.40.0"
   },
   "renovate-config": {
     "default": {
