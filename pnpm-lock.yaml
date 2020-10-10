@@ -1,7 +1,7 @@
 devDependencies:
   '@changesets/cli': 2.11.0
   '@ianwalter/renovate-config': 'link:'
-  renovate: 23.44.6
+  renovate: 23.44.8
 lockfileVersion: 5.1
 packages:
   /@arcanis/slice-ansi/1.0.2:
@@ -361,17 +361,17 @@ packages:
     dev: true
     resolution:
       integrity: sha512-ONpcZAEYlbPx4EtJwfTyCDQJGUpKf4sEcuySdCVjK5Fj/3vHp5HII1fqa1/+qrsLnpYELCQTfVW/awsGJePoIg==
-  /@yarnpkg/core/2.3.0:
+  /@yarnpkg/core/2.3.1:
     dependencies:
       '@arcanis/slice-ansi': 1.0.2
       '@types/semver': 7.3.4
       '@types/treeify': 1.0.0
-      '@yarnpkg/fslib': 2.2.2
+      '@yarnpkg/fslib': 2.3.0
       '@yarnpkg/json-proxy': 2.1.0
       '@yarnpkg/libzip': 2.2.1
-      '@yarnpkg/parsers': 2.2.1
-      '@yarnpkg/pnp': 2.3.0
-      '@yarnpkg/shell': 2.3.0
+      '@yarnpkg/parsers': 2.3.0
+      '@yarnpkg/pnp': 2.3.1
+      '@yarnpkg/shell': 2.4.0
       binjumper: 0.1.2
       camelcase: 5.3.1
       chalk: 3.0.0
@@ -399,8 +399,8 @@ packages:
     engines:
       node: '>=10.19.0'
     resolution:
-      integrity: sha512-a2I7PW3NfCLb5PyTIQUkJm5jSBgose5oYhvh+M+hES36PbkAIOIB0Oal4aNSXhHNeUsIrc9AG7hSA4UbZt3pCw==
-  /@yarnpkg/fslib/2.2.2:
+      integrity: sha512-XIFgmIJRSQxeuJcuozTMIViIQSAVbYPc21yn+PCv7JGZ6t2K1t64m+OKv5XYv9zexYiOYqCqpUw+IT1ql9YaZw==
+  /@yarnpkg/fslib/2.3.0:
     dependencies:
       '@yarnpkg/libzip': 2.2.1
       tslib: 1.13.0
@@ -408,10 +408,10 @@ packages:
     engines:
       node: '>=10.19.0'
     resolution:
-      integrity: sha512-SRDuFP5u/AqxP6DZ0p8fVjVk5Ue8gOxRXb0w36vduMoGWCUKS8G4W14bPjlyzOWCMTRXSqL8F7qovtEpB9IgUQ==
+      integrity: sha512-QaaymZ7syTT7S3xUeK2iH7YDRxxdjGT5166mebk/Y/egtNLIMX7oNbVlw2TszwbK2iizyUKSGSFpLgmF6ahVUg==
   /@yarnpkg/json-proxy/2.1.0:
     dependencies:
-      '@yarnpkg/fslib': 2.2.2
+      '@yarnpkg/fslib': 2.3.0
       tslib: 1.13.0
     dev: true
     engines:
@@ -427,7 +427,7 @@ packages:
       node: '>=10.19.0'
     resolution:
       integrity: sha512-AYDJXrkzayoDd3ZlVgFJ+LyDX+Zj/cki3vxIpcYxejtgkl3aquVWOxlC0DD9WboBWsJFIP1MjrUbchLyh++/7A==
-  /@yarnpkg/parsers/2.2.1:
+  /@yarnpkg/parsers/2.3.0:
     dependencies:
       js-yaml: 3.14.0
       tslib: 1.13.0
@@ -435,21 +435,21 @@ packages:
     engines:
       node: '>=10.19.0'
     resolution:
-      integrity: sha512-1hZ6EQKuNFWNJ/FhYNZwW3TrAnFwb2j3lFqCZpnJJ9l0BGnF/2BHVXU3JMNaqrPcrwZAaBjjmgUNGosVLuVoqg==
-  /@yarnpkg/pnp/2.3.0:
+      integrity: sha512-qgz0QUgOvnhtF92kaluIhIIKBUHlYlHUBQxqh5v9+sxEQvUeF6G6PKiFlzo3E6O99XwvNEGpVu1xZPoSGyGscQ==
+  /@yarnpkg/pnp/2.3.1:
     dependencies:
       '@types/node': 13.13.15
-      '@yarnpkg/fslib': 2.2.2
+      '@yarnpkg/fslib': 2.3.0
       tslib: 1.13.0
     dev: true
     engines:
       node: '>=10.19.0'
     resolution:
-      integrity: sha512-aW6dvt/UGRpGAhSKoDRCUdIi2LVBqG/FN4iU9QGLvmVMPok8O1C5Js7+PbxQMz6/1aqyrkEzhYJs0GpCvpaTXg==
-  /@yarnpkg/shell/2.3.0:
+      integrity: sha512-eFcAwIXgFIaoLz8DbeMEEDqoEHk0E7y57xUAsk4R3xThbFZ/DUFyk8LrypXBXN1hwfAsznR208Yiuk6NwP0eWw==
+  /@yarnpkg/shell/2.4.0:
     dependencies:
-      '@yarnpkg/fslib': 2.2.2
-      '@yarnpkg/parsers': 2.2.1
+      '@yarnpkg/fslib': 2.3.0
+      '@yarnpkg/parsers': 2.3.0
       clipanion: 2.6.2
       cross-spawn: 7.0.3
       fast-glob: 3.2.4
@@ -461,7 +461,7 @@ packages:
       node: '>=10.19.0'
     hasBin: true
     resolution:
-      integrity: sha512-k2K4i06E6sbu+A7wu3e4l4CDXjXxibr3ZiamWuFNhiXTnuuQzKBI0xz5MnLKZ+v/9XncB1FLfGU+SKMWypRXfg==
+      integrity: sha512-6c7v9bfNrYrAq3Zxz05dEIpcCZzTNzGAio5HCjsxwPsEiW2D4W+yOEQYP7TQtZ00HRCaxnA1gSICw6mp1I2MLg==
   /abab/2.0.5:
     dev: true
     resolution:
@@ -3399,13 +3399,13 @@ packages:
     dev: true
     resolution:
       integrity: sha512-amw8rGdD5lHbMEakiEsllmkdBP+/KpjW/PRK6NSGPZKCQowh0BT4IWXDAkRMyG3SB9dKPXWMviFjNusXzXNn3A==
-  /renovate/23.44.6:
+  /renovate/23.44.8:
     dependencies:
       '@renovate/pep440': 0.4.1
       '@renovatebot/ruby-semver': 0.2.1
       '@sindresorhus/is': 3.1.2
-      '@yarnpkg/core': 2.3.0
-      '@yarnpkg/parsers': 2.2.1
+      '@yarnpkg/core': 2.3.1
+      '@yarnpkg/parsers': 2.3.0
       aws-sdk: 2.759.0
       azure-devops-node-api: 10.1.1
       bunyan: 1.8.14
@@ -3472,7 +3472,7 @@ packages:
     optionalDependencies:
       re2: 1.15.5
     resolution:
-      integrity: sha512-E3kluyI0fPjCKOVNqOY5WkmGs6X7F3DP1R3obrvqeEOKgJnlcyNesjzGDsiLO2UN9OF0ikTvfzAC1Det/JcQ/w==
+      integrity: sha512-4RlhxnsINh1+viyCA7571k0IFZ6smggaA8H3ecHs2342vKGfZP3YPHG6kexGQ5AO7AJlf/lEXqK5DjVZ/pldqg==
   /repeat-string/1.6.1:
     dev: true
     engines:
@@ -4623,4 +4623,4 @@ packages:
 specifiers:
   '@changesets/cli': ^2.11.0
   '@ianwalter/renovate-config': 'file:./'
-  renovate: ^23.44.6
+  renovate: ^23.44.8
