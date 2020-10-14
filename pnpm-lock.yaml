@@ -1,7 +1,7 @@
 devDependencies:
   '@changesets/cli': 2.11.0
   '@ianwalter/renovate-config': 'link:'
-  renovate: 23.47.7
+  renovate: 23.47.8
 lockfileVersion: 5.1
 packages:
   /@arcanis/slice-ansi/1.0.2:
@@ -1892,12 +1892,12 @@ packages:
     dev: true
     resolution:
       integrity: sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
-  /install-artifact-from-github/1.0.2:
+  /install-artifact-from-github/1.1.1:
     dev: true
     hasBin: true
     optional: true
     resolution:
-      integrity: sha512-yuMFBSVIP3vD0SDBGUqeIpgOAIlFx8eQFknQObpkYEM5gsl9hy6R9Ms3aV+Vw9MMyYsoPMeex0XDnfgY7uzc+Q==
+      integrity: sha512-ZA4d8ABVKdGoWjYK+EyHrOfMRpOLyrBX/9dVts2ULDBRuFWObQ/I3o4f80Ca8klbYQAa5oIRG7XbU22r74A+Ew==
   /ip-regex/2.1.0:
     dev: true
     engines:
@@ -3191,16 +3191,16 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-y3bGgqKj3QBdxLbLkomlohkvsA8gdAiUQlSBJnBhfn+BPxg4bc62d8TcBW15wavDfgexCgccckhcZvywyQYPOw==
-  /re2/1.15.5:
+  /re2/1.15.6:
     dependencies:
-      install-artifact-from-github: 1.0.2
+      install-artifact-from-github: 1.1.1
       nan: 2.14.1
       node-gyp: 7.1.0
     dev: true
     optional: true
     requiresBuild: true
     resolution:
-      integrity: sha512-DwlSUKqhBbECQYbJOudEC20d4Y4KnE7H6gFh1n7zRe10nFP7X2UKZ0ko2rz2islKyjl5KrPyCrxh9hJfiVx0VQ==
+      integrity: sha512-SsxGuKiizqOPBwm2YkMfh+Wsj+02sqP9y8xydC9KbZqHuY2qdjEyoJAfBapKSTK130gZMXVE6Qm+GTlOfjwqJw==
   /read-chunk/2.1.0:
     dependencies:
       pify: 3.0.0
@@ -3399,7 +3399,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-amw8rGdD5lHbMEakiEsllmkdBP+/KpjW/PRK6NSGPZKCQowh0BT4IWXDAkRMyG3SB9dKPXWMviFjNusXzXNn3A==
-  /renovate/23.47.7:
+  /renovate/23.47.8:
     dependencies:
       '@renovate/pep440': 0.4.1
       '@renovatebot/ruby-semver': 0.2.1
@@ -3470,9 +3470,9 @@ packages:
       yarn: ^1.17.0
     hasBin: true
     optionalDependencies:
-      re2: 1.15.5
+      re2: 1.15.6
     resolution:
-      integrity: sha512-Hd7xMn/Ve+QCC2CaJ8z6b7jlZOKbmSLz5VHefdA6Nl5d7oRc4BmY1vKSxOIm8k4mwb495SFO2yM8sJyrFOskeg==
+      integrity: sha512-5Ly3fO0FoemLZAVH764Z0bs0cB1QG7B9Vk1tWjYKLZAAsmosVJb/H6/IdtaknWMpWtHvAMKM7cGPzrwl5IrUTA==
   /repeat-string/1.6.1:
     dev: true
     engines:
@@ -4623,4 +4623,4 @@ packages:
 specifiers:
   '@changesets/cli': ^2.11.0
   '@ianwalter/renovate-config': 'file:./'
-  renovate: ^23.47.7
+  renovate: ^23.47.8
