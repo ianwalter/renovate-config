@@ -1,7 +1,7 @@
 devDependencies:
   '@changesets/cli': 2.11.1
   '@ianwalter/renovate-config': 'link:'
-  renovate: 23.49.3
+  renovate: 23.49.6
 lockfileVersion: 5.1
 packages:
   /@arcanis/slice-ansi/1.0.2:
@@ -282,6 +282,12 @@ packages:
       node: '>=10'
     resolution:
       integrity: sha512-JiX9vxoKMmu8Y3Zr2RVathBL1Cdu4Nt4MuNWemt1Nc06A0RAin9c5FArkhGsyMBWfCu4zj+9b+GxtjAnE4qqLQ==
+  /@sindresorhus/is/4.0.0:
+    dev: true
+    engines:
+      node: '>=10'
+    resolution:
+      integrity: sha512-FyD2meJpDPjyNQejSjvnhpgI/azsQkA4lGbuu5BQZfjvJ9cbRZXzeWL2HceCekW4lixO9JPesIIQkSoLjeJHNQ==
   /@szmarczak/http-timer/4.0.5:
     dependencies:
       defer-to-connect: 2.0.0
@@ -3417,11 +3423,11 @@ packages:
     dev: true
     resolution:
       integrity: sha512-amw8rGdD5lHbMEakiEsllmkdBP+/KpjW/PRK6NSGPZKCQowh0BT4IWXDAkRMyG3SB9dKPXWMviFjNusXzXNn3A==
-  /renovate/23.49.3:
+  /renovate/23.49.6:
     dependencies:
       '@renovate/pep440': 0.4.1
       '@renovatebot/ruby-semver': 0.2.1
-      '@sindresorhus/is': 3.1.2
+      '@sindresorhus/is': 4.0.0
       '@yarnpkg/core': 2.3.1
       '@yarnpkg/parsers': 2.3.0
       aws-sdk: 2.771.0
@@ -3477,7 +3483,7 @@ packages:
       slugify: 1.4.5
       toml: 3.0.0
       traverse: 0.6.6
-      upath: 1.2.0
+      upath: 2.0.0
       url-join: 4.0.1
       validate-npm-package-name: 3.0.0
       www-authenticate: 0.6.2
@@ -3490,7 +3496,7 @@ packages:
     optionalDependencies:
       re2: 1.15.6
     resolution:
-      integrity: sha512-/W8PEf8W7go0YciUKohO+PoYdK1m5GQ/TXyvE6xSZ9gF2kfcMhRz5PXyv9m4IUwd1ae8T2gIfRKCgeayidzz4w==
+      integrity: sha512-oH7oWIKrX2unR6ykTSBpyzfdwBSs5j9EdqD8YXNZPN+VHZNadGvFiRs/dpT1Bcj0BlTQVo2Hf4jyU89jvcQ+rw==
   /repeat-string/1.6.1:
     dev: true
     engines:
@@ -4329,12 +4335,12 @@ packages:
       node: '>= 10.0.0'
     resolution:
       integrity: sha512-rb6X1W158d7pRQBg5gkR8uPaSfiids68LTJQYOtEUhoJUWBdaQHsuT/EUduxXYxcrt4r5PJ4fuHW1MHT6p0qug==
-  /upath/1.2.0:
+  /upath/2.0.0:
     dev: true
     engines:
       node: '>=4'
     resolution:
-      integrity: sha512-aZwGpamFO61g3OlfT7OQCHqhGnW43ieH9WZeP7QxN/G/jS4jfqUkZxoryvJgVPEcrl5NL/ggHsSmLMHuH64Lhg==
+      integrity: sha512-ghi1XxsVYPOZPDsOZrfOJIwQU5I3JVYB3Q6IbBGn1KFeOa89i0nUy5tCEkY9pVm83U83qZ1QG40RQKGknllV4w==
   /uri-js/4.2.2:
     dependencies:
       punycode: 2.1.1
@@ -4641,4 +4647,4 @@ packages:
 specifiers:
   '@changesets/cli': ^2.11.1
   '@ianwalter/renovate-config': 'file:./'
-  renovate: ^23.49.3
+  renovate: ^23.49.6
