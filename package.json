@@ -76,8 +76,7 @@
         }
       ],
       "reviewers": []
-    },
-    "onboarding": false
+    }
   },
   "renovate": {
     "extends": [
