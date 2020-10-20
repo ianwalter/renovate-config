@@ -12,4 +12,4 @@ jobs:
         with:
           fetch-depth: 0
       - name: Changeset
-        uses: ianwalter/add-changeset@v1.0.8
+        uses: ianwalter/add-changeset@v1.2.2
