@@ -1,5 +1,11 @@
 # @ianwalter/renovate-config
 
+## 1.4.2
+
+### Patch Changes
+
+- 2d32ce2: Update dependency renovate to ^23.55.3
+
 ## 1.4.1
 
 ### Patch Changes
