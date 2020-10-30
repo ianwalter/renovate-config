@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/ianwalter/renovate-config#readme",
   "devDependencies": {
-    "@changesets/cli": "^2.11.1",
+    "@changesets/cli": "^2.11.2",
     "@ianwalter/renovate-config": "file:./",
     "renovate": "^23.56.8"
   },
