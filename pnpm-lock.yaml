@@ -1,7 +1,7 @@
 devDependencies:
   '@changesets/cli': 2.12.0
   '@ianwalter/renovate-config': 'link:'
-  renovate: 24.0.2
+  renovate: 24.0.3
 lockfileVersion: 5.2
 packages:
   /@arcanis/slice-ansi/1.0.2:
@@ -223,17 +223,6 @@ packages:
     dev: true
     resolution:
       integrity: sha512-GaHYm+c0O9MjZRu0ongGBRbinu8gVAMd2UZjji6jVmqKtZluZnptXGWhz1E8j8D2HJ3f/yMxKAUC0b+57wncIw==
-  /@ls-lint/ls-lint/1.9.2:
-    cpu:
-      - x64
-    dev: true
-    hasBin: true
-    os:
-      - darwin
-      - linux
-      - win32
-    resolution:
-      integrity: sha512-sugEjWjSSy9OHF6t1ZBLZCAROj52cZthB9dIePmzZzzMwmWwy3qAEMSdJheHeS1FOwDZI7Ipm1H/bWgzJNnSAw==
   /@manypkg/find-root/1.1.0:
     dependencies:
       '@babel/runtime': 7.11.2
@@ -3434,11 +3423,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-amw8rGdD5lHbMEakiEsllmkdBP+/KpjW/PRK6NSGPZKCQowh0BT4IWXDAkRMyG3SB9dKPXWMviFjNusXzXNn3A==
-  /renovate/24.0.2:
+  /renovate/24.0.3:
     dependencies:
       '@breejs/later': 4.0.2
       '@iarna/toml': 2.2.5
-      '@ls-lint/ls-lint': 1.9.2
       '@renovate/pep440': 0.4.1
       '@renovatebot/ruby-semver': 0.2.1
       '@sindresorhus/is': 4.0.0
@@ -3510,7 +3498,7 @@ packages:
     optionalDependencies:
       re2: 1.15.9
     resolution:
-      integrity: sha512-cChao9CFFSFhAmolS/s9mUqSdF9F2jdVl97wUMGfGZPjnmF/2EkJ47PhcAMZ0whgQhPmtqFi0tQKSobaIs1XuA==
+      integrity: sha512-p+txeeGGk/6IjfKnG/v0ZssJwGY6STzGiMYi6zlKwMyRj60MsVzCk4UTLepYS1+zwLSnUeyhONcNReCRwlBcDA==
   /repeat-string/1.6.1:
     dev: true
     engines:
@@ -4645,4 +4633,4 @@ packages:
 specifiers:
   '@changesets/cli': ^2.12.0
   '@ianwalter/renovate-config': 'file:./'
-  renovate: ^24.0.2
+  renovate: ^24.0.3
