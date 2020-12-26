@@ -1,7 +1,7 @@
 devDependencies:
   '@changesets/cli': 2.12.0
   '@ianwalter/renovate-config': 'link:'
-  renovate: 24.10.2
+  renovate: 24.10.3
 lockfileVersion: 5.2
 packages:
   /@arcanis/slice-ansi/1.0.2:
@@ -667,14 +667,14 @@ packages:
     dev: true
     resolution:
       integrity: sha512-3YDiu347mtVtjpyV3u5kVqQLP242c06zwDOgpeRnybmXlYYsLbtTrUBUm8i8srONt+FWobl5aibnU1030PeeuA==
-  /azure-devops-node-api/10.1.2:
+  /azure-devops-node-api/10.2.0:
     dependencies:
       tunnel: 0.0.6
       typed-rest-client: 1.8.0
       underscore: 1.8.3
     dev: true
     resolution:
-      integrity: sha512-0oPwjVcV1IbzSx+rcT6clhmO8bQQazU/p6haErbRwAlPf2Oh+MK277TCqo4bFNL/8HS3LR4nDrNowMSmQDh//Q==
+      integrity: sha512-5yXGb0kBszCiLw1qZNtS/y3EqGI/nVtkndX5n9qsdU26pJjFwyg9pAOjixni34R+IX4u243p34oXQwXaKbyD8g==
   /backslash/0.2.0:
     dev: true
     resolution:
@@ -3431,7 +3431,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-amw8rGdD5lHbMEakiEsllmkdBP+/KpjW/PRK6NSGPZKCQowh0BT4IWXDAkRMyG3SB9dKPXWMviFjNusXzXNn3A==
-  /renovate/24.10.2:
+  /renovate/24.10.3:
     dependencies:
       '@breejs/later': 4.0.2
       '@iarna/toml': 2.2.5
@@ -3441,7 +3441,7 @@ packages:
       '@yarnpkg/core': 2.4.0
       '@yarnpkg/parsers': 2.3.0
       aws-sdk: 2.792.0
-      azure-devops-node-api: 10.1.2
+      azure-devops-node-api: 10.2.0
       bunyan: 1.8.14
       cacache: 15.0.5
       chalk: 4.1.0
@@ -3506,7 +3506,7 @@ packages:
     optionalDependencies:
       re2: 1.15.9
     resolution:
-      integrity: sha512-DizHbTd2ivzNsLtpZnN1e8Vrjk1DQKCEHRUX6nU+k6dnvQ5C4kcgsfU5dkWpeVAVqV0vK1L9l0EEkqPAC0tK5A==
+      integrity: sha512-e8ci+lZ+RGAnhijbSs+pg5aDGmXTW0P145WCtrgtsZUPm4IRxZ7r2TIglGMsDCCrYxgF52SHeiQYE6K9O2hF5A==
   /repeat-string/1.6.1:
     dev: true
     engines:
@@ -4641,4 +4641,4 @@ packages:
 specifiers:
   '@changesets/cli': ^2.12.0
   '@ianwalter/renovate-config': 'file:./'
-  renovate: ^24.10.2
+  renovate: ^24.10.3
