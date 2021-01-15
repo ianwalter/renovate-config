@@ -59,20 +59,19 @@
           "packagePatterns": [
             "^@ianwalter/bff"
           ],
-          "groupName": "bff packages"
+          "groupName": "bff"
         },
         {
           "packagePatterns": [
             "^@ianwalter/nrg"
           ],
-          "groupName": "nrg packages"
+          "groupName": "nrg"
         },
         {
           "packagePatterns": [
-            "^vue$",
-            "^vue-template-compiler$"
+            "^@sentry"
           ],
-          "groupName": "Vue"
+          "groupName": "Sentry"
         }
       ],
       "reviewers": []
