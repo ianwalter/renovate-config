@@ -1,5 +1,11 @@
 # @ianwalter/renovate-config
 
+## 1.4.3
+
+### Patch Changes
+
+- cca17cc: Adding Sentry packages group
+
 ## 1.4.2
 
 ### Patch Changes
