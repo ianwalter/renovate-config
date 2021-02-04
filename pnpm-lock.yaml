@@ -1,7 +1,7 @@
 devDependencies:
   '@changesets/cli': 2.14.0
   '@ianwalter/renovate-config': 'link:'
-  renovate: 24.37.5
+  renovate: 24.38.0
 lockfileVersion: 5.2
 packages:
   /@arcanis/slice-ansi/1.0.2:
@@ -3469,7 +3469,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-amw8rGdD5lHbMEakiEsllmkdBP+/KpjW/PRK6NSGPZKCQowh0BT4IWXDAkRMyG3SB9dKPXWMviFjNusXzXNn3A==
-  /renovate/24.37.5:
+  /renovate/24.38.0:
     dependencies:
       '@breejs/later': 4.0.2
       '@iarna/toml': 2.2.5
@@ -3545,7 +3545,7 @@ packages:
     optionalDependencies:
       re2: 1.15.9
     resolution:
-      integrity: sha512-SdzdSvlbnH7nODlboSPo6BIse8FnCbuYtSltqcVU2AmUFjjk4kqfIq3aj34hVx8TerBIw+RGlF4VHovwrgo21Q==
+      integrity: sha512-58PDvykiUpijLPDtQIiipwh6tJzE5jcutauzEOcGvV0SwAWJ61sVtPfAE750PW+EO9QD9/X+ePmBUcrMaxsmog==
   /repeat-string/1.6.1:
     dev: true
     engines:
@@ -4686,4 +4686,4 @@ packages:
 specifiers:
   '@changesets/cli': ^2.14.0
   '@ianwalter/renovate-config': file:./
-  renovate: ^24.37.5
+  renovate: ^24.38.0
