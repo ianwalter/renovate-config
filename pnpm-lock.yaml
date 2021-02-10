@@ -1,7 +1,7 @@
 devDependencies:
   '@changesets/cli': 2.14.1
   '@ianwalter/renovate-config': 'link:'
-  renovate: 24.44.0
+  renovate: 24.44.1
 lockfileVersion: 5.2
 packages:
   /@arcanis/slice-ansi/1.0.2:
@@ -3937,7 +3937,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-amw8rGdD5lHbMEakiEsllmkdBP+/KpjW/PRK6NSGPZKCQowh0BT4IWXDAkRMyG3SB9dKPXWMviFjNusXzXNn3A==
-  /renovate/24.44.0:
+  /renovate/24.44.1:
     dependencies:
       '@aws-sdk/client-ecr': 3.4.1
       '@breejs/later': 4.0.2
@@ -4013,7 +4013,7 @@ packages:
     optionalDependencies:
       re2: 1.15.9
     resolution:
-      integrity: sha512-ZN0OG/7aQanDO5wPPmK2m81Yxlh8j/KsFWoWbnSz60uxgponYvWyYtek2qdA10uc9kEOANicLIegfS1hwZP03Q==
+      integrity: sha512-N0EmhJyN1/jekbmCTihJw1jxJsgF3Xa9XSMdjBkZzpYYmzUMi1vt7ApLlTIltONj+C5youd+OuGoYllm2UfTAw==
   /repeat-string/1.6.1:
     dev: true
     engines:
@@ -5132,4 +5132,4 @@ packages:
 specifiers:
   '@changesets/cli': ^2.14.1
   '@ianwalter/renovate-config': file:./
-  renovate: ^24.44.0
+  renovate: ^24.44.1
